@@ -16,9 +16,9 @@ function load_config(){
 		define('MEMCACHEDHOST', 'localhost'); // Memcached host
 		define('MEMCACHEDPORT', '11211'); // Memcached port
 	}
-	define('DBDRIVER', 0); // Selects the database driver to use - 0=MySQL, 1=PostgreSQL, 2=sqlite
+	define('DBDRIVER', 2); // Selects the database driver to use - 0=MySQL, 1=PostgreSQL, 2=sqlite
 	if(DBDRIVER===2){
-		define('SQLITEDBFILE', 'public_chat.sqlite'); // Filepath of the sqlite database, if sqlite is used - make sure it is writable for the webserver user
+		define('SQLITEDBFILE', 'lechat.db'); // Filepath of the sqlite database, if sqlite is used - make sure it is writable for the webserver user
 	}
 	define('COOKIENAME', PREFIX . 'chat_session'); // Cookie name storing the session information
 	define('LANG', 'en'); // Default language

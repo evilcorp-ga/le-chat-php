@@ -30,6 +30,8 @@ function cron(){
 	while($tmp=$result->fetch(PDO::FETCH_NUM)){
 		$stmt->execute($tmp);
 	}
+	/*
+	* Gives ERROR when using SQLite3
 	// delete old notes
 	$limit=get_setting('numnotes');
 	$db->exec('DELETE FROM ' . PREFIX . 'notes WHERE type!=2 AND id NOT IN (SELECT * FROM ( (SELECT id FROM ' . PREFIX . "notes WHERE type=0 ORDER BY id DESC LIMIT $limit) UNION (SELECT id FROM " . PREFIX . "notes WHERE type=1 ORDER BY id DESC LIMIT $limit) ) AS t);");
@@ -38,5 +40,5 @@ function cron(){
 	while($tmp=$result->fetch(PDO::FETCH_NUM)){
 		$stmt->execute([$tmp[0], $tmp[0]]);
 	}
+	*/
 }
-
