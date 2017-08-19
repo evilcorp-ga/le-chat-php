@@ -24,4 +24,4 @@ function print_start($class='', $ref=0, $url=''){
 		//external css - in body to make it non-renderblocking
 		echo "<link rel=\"stylesheet\" type=\"text/css\" href=\"$externalcss\">";
 	}
-}
+} 

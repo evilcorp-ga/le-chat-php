@@ -1,6 +1,6 @@
 .msg {
-	padding: 0.5em 0;
-	border-bottom: 1px solid #363636
+	padding: 0.1em 0;
+	border-bottom: 1px dotted #363630;
 }
 
 input, select, textarea, button {
@@ -12,7 +12,8 @@ input, select, textarea, button {
 
 #messages {
 	display: block;
-	width: 79%
+	width: 79%;
+	margin-top:25px;
 }
 
 .messages #topic {
@@ -40,4 +41,11 @@ input, select, textarea, button {
 .messages #chatters table a {
 	display: table-row;
 	line-height: 0;
+}
+
+#topic {
+	position:fixed;
+	top: 0px;
+	height: 20px;
+	background-color: black !important;
 }
