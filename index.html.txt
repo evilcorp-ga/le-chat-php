@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="icon" href="/asset/img/img.png" type="image/x-icon">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Welcome to Crowley Labs</title>
+
+<style>
+	* {margin: 0;padding: 0;font-size: 11px;}
+
+	html {
+		background: url(/asset/img/wallpaper_black.jpg) no-repeat center center fixed #FFF;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin-top: 0%;
+		margin-left: 0px;
+		margin-right: 0px;
+		margin-bottom: 0%;
+		background-position: center;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		opacity: 0.5;
+	}
+</style>
+</head>
+<body>
+<center>
+<img src="/asset/img/ac.png" alt="Smiley face" height="260" width="1310">
+
+<div style="font-size:33px; color:orange; text-shadow: 0 0 7px #FF0000, 0 0 11px #0000FF">
+	<b>Collider Webchat</b>
+	<br>
+
+	<a href="//chat.evilcorp/chat/"><b>ENTER HERE</b></a>
+</div>
+
+<a href="//chat.evilcorp.ga/chat/"><img class="under" style="width: 75px; height: auto;" title="WebChat" alt="" src="/asset/img/icon_chat.png"></a>
+
+<div style="font-size:33px; color:orange; text-shadow: 0 0 7px #FF0000, 0 0 11px #0000FF">
+	<b><u>Welcome, enjoy your stay.</u></b>
+</div>
+
+<div style="font-size: 11px; color: orange; text-shadow: 0 0 7px #FF0000, 0 0 11px #0000FF">
+<br>I can imagine myself on my death-bed, spent utterly with lust to touch the next world, like a boy asking for his first kiss from a woman."
+<br>Total Page Viewers: 
+<a href="http://dcounter3sjplzorng2oekjmt6xdaa5qkdc3guypuqranjjeoxlgc4id.onion/visits.php?id=33ffc4c8bb413042f8f251e1ce1bc9cb"><img style="height:24px;width:auto;" src="http://dcounter3sjplzorng2oekjmt6xdaa5qkdc3guypuqranjjeoxlgc4id.onion/counter.gif?id=33ffc4c8bb413042f8f251e1ce1bc9cb&bg=000000&fg=FFFFFF&tr=0&unique=0&mode=0"></a>
+</div>
+
+</center> 
+</body>
+</html>
