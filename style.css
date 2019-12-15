@@ -49,3 +49,83 @@ input, select, textarea, button {
 	height: 20px;
 	background-color: black !important;
 }
+
+
+
+
+.messages #änderns {
+    -webkit-animation:pulse 10s linear infinite;
+    animation: pulse 10s linear infinite;
+    font-weight:bold;
+    color:#F00;
+}
+
+.messages #topic {
+    padding-top:1px;
+    padding-bottom:11px;
+    text-align:center;
+    font-family:'Russo_One',Helvetica,Arial,sans-serif; /*font-family: "Helvetica", Arial, sans-serif;*/
+    font-size:15px;
+    font-weight:bold;
+    color:rgb(88, 163, 62);
+    text-shadow:1px 1px 2px black, 0 0 1em gold, 1px 0 1px black, 0 1px 1px black, -1px 0 1px black, 0 -1px 1px black;
+    filter: saturate(50%) sepia(60%) contrast(200%);
+}
+
+.messages {
+	background-image:url('/asset/img/rsz_part.png');
+}
+
+.post {
+	background:url('/asset/img/tes2.jpg') no-repeat center center fixed;
+}
+
+.controls {
+	background:url('/asset/img/wallpaper_black.jpg');
+}
+
+.inbox {
+    background-image:url('/asset/img/Icon_ChatInbox.png');
+}
+
+.msg {
+    padding: 0.3em 0;
+    border-bottom: 1px solid #363636;
+    font-family:'Russo_One',Helvetica,Arial,sans-serif; /*font-family: "Helvetica", Arial, sans-serif;*/
+    font-size: 13px;
+}
+
+input, select, textarea {
+	color: white;
+	background-color: black;
+	border: 1px solid #397CAE;
+	border-radius: 2px;
+}
+
+input:focus, select:focus, textarea:focus {
+	box-shadow: 0px 0px 4px #5498CB
+}
+
+a:link, a:visited {
+    color:#5F86E4;
+}
+
+a:hover {
+    text-decoration:none;
+}
+
+a:active {
+    text-decoration:none;
+    color:#9DB3E7;
+}
+
+#exitbutton {
+    background-color:black;
+    border: 1px solid;
+}
+
+label:hover,input[type="checkbox"]:hover, input[type="submit"]:hover {
+    color:white;
+    background-color:#0018FF;
+}
+
